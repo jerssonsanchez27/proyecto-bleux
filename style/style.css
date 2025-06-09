@@ -1,0 +1,292 @@
+body{
+margin: 0px;
+padding: 0px;
+height: 0px;
+ font-family: Arial, sans-serif;
+}
+  
+header{
+    background-color: #1e172f;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+nav a {
+    padding: 50 px;
+    text-decoration: none;
+    color: gray;
+    margin-right: 20px;    
+    
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+.downland{
+    background-color: #5856d5;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 85px;
+    color: white;
+    background: linear-gradient(to right, #3937bb, #7472ed);}
+
+
+
+.seccion_1{
+    height: 80vh;
+    display: flex;
+}
+.div_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#2e2550;
+    width: 50%;
+    text-align:initial;
+}
+
+.div_1 h1{
+    color: white;
+    font-size: 60px;
+    text-align:left;
+}
+
+.div_1 p{
+    color: white;
+    text-align: justify;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.fondoHojas{
+    background-image: url(/assets/hojasFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.seccion_1 img{
+    height: 450px;
+    margin-left: 120px;
+    margin-top: 90px;
+
+}
+
+.botones {
+    display: inline-block;
+    margin: 30px 0px 0px 200px;
+    padding: 15px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 167, 167, 0.3);
+}
+
+.boton1 {
+    background-color: white;
+    color: #ff4c96;
+    text-decoration: none;   
+    padding: 11px 25px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.boton2 {
+    background-color: transparent;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.titulo1{
+    margin-top: 30px;
+    color: #f41486;
+    text-align: center;
+    font-size: 40px;
+}
+
+.div2 img{
+height:17rem;
+width:30rem;
+margin-left: 200px;
+margin-top: 20px;
+}
+.seccion_2{
+    display: flex;
+    flex-direction:column;
+}
+
+.div2{
+display: flex;
+margin-bottom: 35px;
+
+}
+
+
+.div2 li{
+list-style: none;
+margin-left: -40px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.titulo2{
+    color:#f41486;
+    font-weight: 5;
+    font-size: 35px;
+}
+
+.div3{
+    display:flex ;
+    flex-direction: column;
+    margin-left: 90px;
+    align-items:flex-start;
+    color:#f41486;
+}
+
+.div3 h4{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.seccion_3 {
+    padding: 4rem 2rem;
+    background-color:#1e172f; 
+    color: #fff;
+    text-align: center;
+}
+
+.seccion_3 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.seccion_3 p {
+    max-width: 691px;
+    margin: 0 auto 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #a4a1aa;
+}
+
+.cartas {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.carta {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.carta-header img {
+    
+    margin-bottom: 0.5rem;
+}
+
+.carta h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.precio {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.preci span {
+    display: block;
+    font-size: 1rem;
+    color: #888;
+}
+
+.carta ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.carta ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.texto-carta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #e91e63; 
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #d81b60;
+}
+
+
+
+.pie {
+    background-color: #f7f7f7;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pie-pag a {
+    margin-left: 1rem;
+    font-weight: bold;
+    color: #333;
+    height: 20px;
+}
+
+.facebook{
+    height: 25px;
+}
+
+.linkedin{
+    height: 25px;
+}
+
+.instagram{
+    height: 25px;
+}
+
